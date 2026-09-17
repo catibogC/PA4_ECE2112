@@ -66,7 +66,14 @@ The objective of this problem is to "examine how the recorded Average differs ac
 This problem consists of 4 different parts.
 - a. Using Pandas, I should compute for the mean of Average for every category. 
 - b. I should display three summary tables that shows the mean of the Averages for each Track, Gender, and Hometown.
-- c. 
+- c. I should then create one figure that shows the bar graphs for the mean Average by Track, Gender, and Hometown.
+- d. Lastly, under the figure, I should write three statements indicating the highest category for each feature.
+
+**Discussion:**
+
+A.
+
+
 
 
 
