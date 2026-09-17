@@ -45,4 +45,22 @@ However, unlike the previous problem, without overriding the newly created DataF
 
 **Discussion**
 
+For the first part of this problem, I essentially did the same thing I did for the previous problem, albeit with a few tweaks as instead of Track, we are referring to Gender, and some columns were replaced and some were added. The new DataFrame was named VisFemale. The code is as follows.
+
+    VisFemale = df.loc[(df['Hometown']=='Visayas')&(df['Gender']=='Female'), ['Name', 'Track', 'GEAS', 'Electronics', 'Average']]
+
+To call out rows from the VisFemale dataset whose averages are at least 60, I made use of the .loc function and created a Boolean index that calls out the rows that are greater than or equal to 60. The code is as follows.
+
+    VisFemale.loc[VisFemale['Average'] >= 60]
+
+With this, I was able to satisfy what was needed from the problem.
+
+---
+
+## C. CATEGORY-AVERAGE VISUALIZATION
+
+
+
+
+
 
