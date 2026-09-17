@@ -73,7 +73,7 @@ This problem consists of 4 different parts.
 
 **A.**
 
-To get the mean of Average for every category, I made use of the .groupby function wherein I called out the categories of each of the aforementioned columns and I got the means of their averages. In preparation for Part B., The DataFrame names 'tracksummary', 'gendersummary', and 'hometownsummary' were used for each respective category. The codes I wrote for each column is as follows.
+To get the mean of Average for every category, I made use of the .groupby function wherein I called out the categories of each of the aforementioned columns and I got the means of their averages. In preparation for Part B., the DataFrame names 'tracksummary', 'gendersummary', and 'hometownsummary' were used for each respective category. The codes I wrote for each column is as follows.
 
     tracksummary = df.groupby('Track')['Average'].mean().reset_index()
     gendersummary = df.groupby('Gender')['Average'].mean().reset_index()
