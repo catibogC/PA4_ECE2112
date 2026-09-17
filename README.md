@@ -79,11 +79,21 @@ To get the mean of Average for every category, I essentially just got the mean o
 
 To display 3 summary tables, I made use of the .groupby function wherein I called out the categories of each of the aforementioned columns and I got the means of their averages. The codes I wrote for each column is as follows.
 
-    tracksummary = df.groupby('Track')['Average'].mean().reset_index()
+    df.groupby('Track')['Average'].mean().reset_index()
 
-    gendersummary = df.groupby('Gender')['Average'].mean().reset_index()
+    df.groupby('Gender')['Average'].mean().reset_index()
 
-    hometownsummary = df.groupby('Hometown')['Average'].mean().reset_index()
+    df.groupby('Hometown')['Average'].mean().reset_index()
+
+**C.**
+
+To create the figure, I typed the following code in order to import the matplotlib.pylot library.
+
+    import matplotlib.pyplot as plt
+
+Upon setting up the figure, I made it so that it shows a figure containing three graphs placed on one row. I also changed the size of my figure so that it can fit within the notebook. The following code was written in order to 
+
+
 
 
 
