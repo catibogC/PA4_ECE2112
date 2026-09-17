@@ -39,4 +39,10 @@ With this, I was able to create the required DataFrame.
 
 **Objective:** 
 
+The objective of this problem is similar to the previous problem. Here, I should create a new DataFrame containing students whose Hometown is Visayas and whose Gender is Female. Additionally, columns 'Name', 'Track', 'GEAS', 'Electronics', and 'Average' are the only columns that should be retained.
+
+However, unlike the previous problem, without overriding the newly created DataFrame, I should only display rows whose average is at least 60.
+
+**Discussion**
+
 
