@@ -26,3 +26,8 @@ Additionally, the given file does not contain an Average column. To make a new c
 
 **Discussion:**
 
+Using the .loc function, I created a Boolean index wherein it only calls out rows whose 'Hometown' is Visayas and whose 'Track' is Communication. Then, I indicated which columns should be called out for the new DataFrame. The new DataFrame was named VisComm. The final code is as follows.
+
+    VisComm = df.loc[(df['Hometown']=='Visayas')&(df['Track']=='Communication'), ['Name', 'Gender', 'Math', 'Electronics', 'Average']]
+
+
