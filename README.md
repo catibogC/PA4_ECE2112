@@ -73,7 +73,18 @@ This problem consists of 4 different parts.
 
 **A.**
 
-In order to 
+To get the mean of Average for every category, I essentially just got the mean of 
+
+**B.**
+
+To display 3 summary tables, I made use of the .groupby function wherein I called out the categories of each of the aforementioned columns and I got the means of their averages. The codes I wrote for each column is as follows.
+
+    tracksummary = df.groupby('Track')['Average'].mean().reset_index()
+
+    gendersummary = df.groupby('Gender')['Average'].mean().reset_index()
+
+    hometownsummary = df.groupby('Hometown')['Average'].mean().reset_index()
+
 
 
 
