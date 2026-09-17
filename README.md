@@ -18,6 +18,8 @@ Additionally, the given file does not contain an Average column. To make a new c
 
     df['Average'] = (df['Math']+df['Electronics']+df['GEAS']+df['Communication']) / 4
 
+---
+
 ## A. VISAYAS COMMUNICATION DATAFRAME
 
 **Objective:** The objective of this problem is to create a DataFrame containing students whose Hometown is Visayas and whose Track is Communication. Additionally, columns 'Name', 'Gender', 'Math', 'Electronics', and 'Average' are the only columns that should be retained.
