@@ -31,6 +31,12 @@ Using the .loc function, I created a Boolean index wherein it only calls out row
     VisComm = df.loc[(df['Hometown']=='Visayas')&(df['Track']=='Communication'), 
                      ['Name', 'Gender', 'Math', 'Electronics', 'Average']]
 
+With this, I was able to create the required DataFrame.
+
+---
+
+## B. VISAYAS FEMALE DATAFRAME
+
 
 
 
