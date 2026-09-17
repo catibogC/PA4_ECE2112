@@ -59,7 +59,14 @@ With this, I was able to satisfy what was needed from the problem.
 
 ## C. CATEGORY-AVERAGE VISUALIZATION
 
+**Objectives:**
 
+The objective of this problem is to "examine how the recorded Average differs across the three categorical features Track, Gender, and Hometown".
+
+This problem consists of 4 different parts.
+a. Using Pandas, I should compute for the mean of Average for every category. 
+b. I should display three summary tables that shows the mean of the Averages for each Track, Gender, and Hometown.
+c. 
 
 
 
